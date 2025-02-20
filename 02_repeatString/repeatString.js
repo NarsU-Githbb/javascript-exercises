@@ -1,8 +1,5 @@
 const repeatString = function() {
-
-
- }
-
+ 
 
 
 
@@ -24,6 +21,22 @@ const repeatString = function() {
   //greetings = -1;}
 //if(greetings = -1) return "ERROR"
 //return greetings 
+
+//test 6 solution: const repeatString = function(word, number) {
+//let greetings = word;
+//for(let i= 2; i <= number; i++) {
+//  greetings += word
+ // }
+// return greetings 
+
+
+//test 7 solution: const repeatString = function(word, number) {
+//let greetings = word;
+//for(let i= 1; i <= number; i++) {
+//  greetings += word
+//  }
+// return greetings
+
  
 
 // Do not edit below this line
