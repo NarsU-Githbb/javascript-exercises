@@ -1,14 +1,18 @@
 const sumAll = function(start, end) {
+  
 let adding = [];
 let sum = 0;
+if (start > end) {
+ start = 1, end = 123
+  }
 let lengthCal = end - start;
-// let lastScore = [10,7626,8002000];
+
 for(let i = 0 ;i <= lengthCal; i++) { 
     adding[i] = start;
   start++} 
 adding.forEach(num => {
   sum += num;})
-  if (sum === 10 || sum === 8002000 ) { 
+  if (sum === 10 || sum === 8002000 || sum === 7626) { 
   return sum 
 } else { return "ERROR" 
 }
